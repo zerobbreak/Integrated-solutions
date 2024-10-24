@@ -80,7 +80,7 @@ const Page = () => {
           Experience seamless, sustainable connectivity with our innovative
           solutions designed for everyone.
         </p>
-        <button className="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition">
+        <button className="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition mt-4">
           Get Started
         </button>
       </motion.section>

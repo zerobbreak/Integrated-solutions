@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 px-4 md:px-6 py-10">
           <Link
             href="/"
-            className="flex items-center text-gold text-3xl font-bold"
+            className="flex items-center text-black text-3xl font-bold"
             prefetch={false}
           >
             Synconex
