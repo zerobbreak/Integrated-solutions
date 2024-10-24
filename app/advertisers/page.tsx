@@ -166,7 +166,7 @@ export default function Advertisers() {
           {caseStudies.map((study, index) => (
             <motion.div
               key={index}
-              className="bg-blue-50 rounded-lg shadow-md p-6"
+              className="rounded-lg shadow-md p-6"
               variants={{
                 hidden: { opacity: 0, y: 50 },
                 visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },

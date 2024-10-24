@@ -13,7 +13,7 @@ import {
 const page = () => {
   return (
     <div>
-      <section className="bg-gray-50 py-16">
+      <section className="py-16">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Why Bus Operators Love Our WiFi</h2>
           <p className="text-lg mb-12 text-gray-600">
@@ -117,7 +117,7 @@ const page = () => {
       </section>
 
       {/* Getting Started Section */}
-      <section className="bg-gray-50 py-16">
+      <section className="py-16">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Getting Started is Easy!</h2>
           <p className="text-lg mb-12 text-gray-600">

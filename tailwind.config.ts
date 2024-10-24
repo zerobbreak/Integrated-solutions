@@ -10,6 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // Existing color variables
         gold: "#FFD700",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
@@ -51,6 +52,51 @@ const config: Config = {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
+
+        // Custom Color Scheme (renamed to avoid conflicts)
+        brandPrimary: {
+          DEFAULT: '#0077cc', // Electric Blue
+          dark: '#005fa3',    // Darker shade for hover/active states
+        },
+        brandAccent: {
+          DEFAULT: '#00cc66', // Vibrant Green
+          dark: '#009a4d',    // Darker shade for hover/active states
+        },
+        brandNeutral: {
+          DEFAULT: '#f0f0f0', // Soft Gray
+          dark: '#cccccc',    // Darker neutral if needed
+        },
+        brandDarkAccent: {
+          DEFAULT: '#333333', // Charcoal Gray
+        },
+
+        // Secondary Color Scheme
+        brandSecondary: {
+          DEFAULT: '#1a8cff', // Deep Sky Blue
+        },
+        brandHighlight: {
+          DEFAULT: '#ff9900', // Bright Orange
+        },
+        brandBackground: {
+          DEFAULT: '#fef8e7', // Light Cream
+        },
+        brandTextDark: {
+          DEFAULT: '#003366', // Dark Navy for text
+        },
+
+        // Alternative Color Scheme
+        alternativeTeal: {
+          DEFAULT: '#009688',     // Teal Green
+        },
+        alternativeSunYellow: {
+          DEFAULT: '#fbc02d',  // Sun Yellow
+        },
+        alternativeBlueGray: {
+          DEFAULT: '#e0eaf1',  // Soft Blue-Gray
+        },
+        alternativeMidnight: {
+          DEFAULT: '#002b5c',  // Midnight Blue
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -61,4 +107,5 @@ const config: Config = {
   },
   plugins: [require("tailwindcss-animate")],
 };
+
 export default config;

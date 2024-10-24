@@ -80,7 +80,7 @@ const Page = () => {
           Experience seamless, sustainable connectivity with our innovative
           solutions designed for everyone.
         </p>
-        <button className="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition mt-4">
+        <button className="bg-brandPrimary text-white p-6 rounded-sm font-semibold hover:bg-brandPrimary-dark transition mt-4">
           Get Started
         </button>
       </motion.section>
@@ -116,20 +116,20 @@ const Page = () => {
             </motion.div>
           ))}
         </div>
-        <div className="mt-8 text-center">
+        {/* <div className="mt-8 text-center">
           <h4 className="text-xl font-semibold">Why Choose Us?</h4>
           <p className="text-gray-600">
             User-Friendly | Comprehensive Support | Innovative Solutions
           </p>
-          <button className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+          <button className="mt-4 bg-brandPrimary text-white px-4 py-2 rounded hover:bg-brandPrimary-dark transition">
             Get Started
           </button>
-        </div>
+        </div> */}
       </motion.section>
 
       {/* Features Section */}
       <motion.section
-        className="bg-gray-100 py-16 md:py-20"
+        className="py-16 md:py-20"
         initial="hidden"
         whileInView="visible"
         variants={sectionVariants}

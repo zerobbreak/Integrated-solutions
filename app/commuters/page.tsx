@@ -44,7 +44,7 @@ const page = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-16">
+    <div className="min-h-screen py-16">
       {/* Hero Section */}
       <section className="text-black text-center py-20">
         <h1 className="text-4xl font-bold mb-4">

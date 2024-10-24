@@ -8,7 +8,7 @@ export default function ContactUs() {
   return (
     <div className="w-full max-w-2xl mx-auto py-16">
       {/* Upper Section */}
-      <section className="bg-blue-600 text-white text-center py-12 rounded-lg mb-8">
+      <section className="text-black text-center py-12 rounded-lg mb-8">
         <h1 className="text-4xl font-bold">We'd Love to Hear from You!</h1>
         <p className="text-lg mt-4">
           Whether you have questions, feedback, or need assistance, reach out to us!
