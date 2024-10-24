@@ -129,7 +129,7 @@ const Page = () => {
 
       {/* Features Section */}
       <motion.section
-        className="py-16 md:py-20"
+        className="py-16 md:py-20 px-16 md:px-16"
         initial="hidden"
         whileInView="visible"
         variants={sectionVariants}

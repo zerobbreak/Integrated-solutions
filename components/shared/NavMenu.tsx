@@ -1,9 +1,13 @@
+"use client"
 import Link from "next/link";
 import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 import { Button } from "../ui/button";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false); // State to control the sheet's visibility
+
   const menu = [
     { name: "How it Works", link: "/how-it-works" },
     { name: "Advertisers", link: "/advertisers" },
@@ -11,6 +15,11 @@ const Navbar = () => {
     { name: "Operators", link: "/operators" },
     { name: "Contact Us", link: "/contact-us" },
   ];
+
+  // Function to handle closing the sheet after a link is clicked
+  const handleMenuClick = () => {
+    setIsOpen(false);
+  };
 
   return (
     <>
@@ -36,7 +45,7 @@ const Navbar = () => {
               </Link>
             ))}
           </nav>
-          <Sheet>
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="md:hidden">
                 <HamburgerMenuIcon />
@@ -51,6 +60,7 @@ const Navbar = () => {
                     href={item.link}
                     className="text-sm font-medium hover:underline"
                     prefetch={false}
+                    onClick={handleMenuClick} // Close the sheet on menu item click
                   >
                     {item.name}
                   </Link>

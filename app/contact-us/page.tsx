@@ -6,18 +6,18 @@ import { AtSymbolIcon, UserIcon, ChatBubbleLeftIcon } from "@heroicons/react/24/
 
 export default function ContactUs() {
   return (
-    <div className="w-full max-w-2xl mx-auto py-16">
+    <div className="w-full max-w-lg md:max-w-2xl mx-auto py-8 sm:py-16 px-4">
       {/* Upper Section */}
-      <section className="text-black text-center py-12 rounded-lg mb-8">
-        <h1 className="text-4xl font-bold">We'd Love to Hear from You!</h1>
-        <p className="text-lg mt-4">
+      <section className="text-black text-center py-8 sm:py-12 rounded-lg mb-6 sm:mb-8">
+        <h1 className="text-3xl sm:text-4xl font-bold">We'd Love to Hear from You!</h1>
+        <p className="text-base sm:text-lg mt-4">
           Whether you have questions, feedback, or need assistance, reach out to us!
         </p>
       </section>
 
       {/* Contact Form Section */}
-      <div className="space-y-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="space-y-4 sm:space-y-6">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6">
           <div className="space-y-2">
             <Label htmlFor="name" className="flex items-center">
               <UserIcon className="h-5 w-5 text-blue-500 mr-2" />
@@ -48,7 +48,7 @@ export default function ContactUs() {
           <Textarea id="message" placeholder="Enter your message" className="min-h-[100px]" />
         </div>
         <div className="flex justify-center">
-          <Button className="bg-blue-600 text-white hover:bg-blue-700 transition duration-300">
+          <Button className="w-full sm:w-auto bg-blue-600 text-white hover:bg-blue-700 transition duration-300">
             Send Message
           </Button>
         </div>
