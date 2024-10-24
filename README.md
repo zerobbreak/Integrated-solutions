@@ -20,14 +20,33 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Website Design Ideas
 
-To learn more about Next.js, take a look at the following resources:
+1. **Homepage Design:**
+   - Hero Section: A full-width image or animation of commuters on a bus, engaged with their devices. Prominent CTA button: "Get Connected" or "Advertise with Us."
+   - Tagline displayed prominently.
+   - Key Sections: "Our Vision," "Advertiser Benefits," "How It Works," and "Join the Network," with smooth scrolling effects.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Content Layout:**
+   - Advertisers Section: Explain WiFi marketing benefits with visuals like icons and case studies.
+   - Commuters Section: Highlight benefits of fast, free WiFi with testimonials.
+   - Bus Operators Section: Emphasize advantages for bus operators using infographics.
+   - Footer: Clean and simple footer with links to legal information and contact details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Visual & Interactive Elements:**
+   - Interactive Maps: Show coverage and expansion plans.
+   - Data and Analytics: Display interactive graphs for customer insights.
+
+4. **User-Friendly Design:**
+   - Clear Navigation: Top navigation bar for easy access to important pages.
+   - Fast Loading Times: Optimize for desktop and mobile for a high-quality service experience.
+
+## Typography Suggestions
+
+1. **Primary Font:** Roboto or Lato (Sans-serif) - Clean, modern, and readable for digital formats.
+2. **Accent Font:** Raleway or Montserrat - Slightly more stylized for headlines and emphasis while maintaining professionalism.
+
+These design concepts aim to create a sleek, modern, and professional image for Synconex, reflecting its core values of connectivity, synchronicity, and sustainability while providing a user-friendly experience for both commuters and advertisers.
 
 ## Deploy on Vercel
 
